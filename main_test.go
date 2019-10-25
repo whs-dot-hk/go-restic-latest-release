@@ -46,6 +46,6 @@ func TestResolveLinuxUrl(t *testing.T) {
 		t.Errorf("Linux url resolved, error should be nil")
 	}
 	if got != linux_url {
-		t.Errorf("Resolve incorrect linux url")
+		t.Errorf("Resolved incorrect linux url")
 	}
 }
